@@ -1,8 +1,9 @@
 package com.avishek.accounts.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Data
+@Data @AllArgsConstructor
 public class AccountsDto {
 
     private Long accountNumber;
